@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fuel Consumption Prediction using machine learning</title>
+<!-- //<link rel="stylesheet" type="text/css" href="w"> -->
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Montserrat';
+  }
+
+  .header {
+    top: 0;
+    margin: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed; 
+    background-color: black;
+    color: whites;
+    box-shadow: 0px 8px 4px lightgrey;
+    overflow: hidden;
+    padding-top: 15px;
+    font-size: 2vw;
+    width: 100%;
+    text-align: left;
+    padding-left: 100px;
+    opacity:0.9;
+  }
+  .header_text{
+    font-size: 2vw;
+    text-align: center;
+  }
+  .content{
+    margin-top: 100px;
+  }
+  .text{
+    font-size:20px;
+    margin-top:10px;
+    text-align:center;
+  }
+  input[type=number], select{
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 50%;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]: hover{
+    background-color: #5d6568;
+    color: #ffffff;
+    border-color: black;
+  }
+  form{
+    margin-top: 20px;
+  }
+  .result{
+    color: black;
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-size: 25px
+    color: red;
+  } 
+</style>
+</head>
+<body align = center>
+  <div class="header">
+          <div>Fuel Consumption Prediction</div>
+  </div>
+  <div class = "content">
+  <div class="header_text">Fuel Consumption Prediction</div>
+  <div class= "text">Fill in and below details to predict the consumption on the gas type.</div>
+
+  <form action="{{url_for('y_predict')}}" method="POST">
+  
+    <input type="number" step="any" id="distance" name="distance" placeholder="distance(km)" ><br>
+    <input type="number" id="speed" name="speed" placeholder="speed(km/hr)"><br><br>
+    <input type="number" id="tem_outside" name="tem_outside" placeholder="temp_outside(°C)"><br>
+    <input type="number" id="gas_type" name="gas_type" placeholder="gas_type"><br><br>
+    <input type="number" id="rain" name="rain" placeholder="rain"><br>
+    <input type="number" id="sun" name="sun" placeholder="sun"><br><br>
+
+
+    <input type="submit" value="Submit">
+  </form> 
+  {{prediction_text}}
+</body>
+</html>

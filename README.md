@@ -36,5 +36,10 @@ Trip Based Modeling of Fuel Consumption in Modern Fleet Vehicles Using Machine L
     -  [x] Sprint 2 <br>    
     -  [x] Sprint 3 <br>
     -  [x] Sprint 4 <br>  
+- Final Deliverabilities
+    -  [x] Final Code <br>
+    -  [x] Project Report <br>    
+    -  [x] Demonstration video link <br>
+    -  [x] Dataset<br>  
 
 <br>

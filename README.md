@@ -10,11 +10,7 @@ Trip Based Modeling of Fuel Consumption in Modern Fleet Vehicles Using Machine L
 <br>
 
 ## Tasks Completed 
-- Assignments
-    -  [x] Assignment 1 <br>
-    -  [x] Assignment 2  <br>    
-    -  [x] Assignment 3  <br>
-    -  [x] Assignment 4  <br>  
+
     
 - Project Design And Planning
     - Ideation Phase
@@ -31,6 +27,11 @@ Trip Based Modeling of Fuel Consumption in Modern Fleet Vehicles Using Machine L
         - [x] Data Flow Diagrams and User Stories <br>
         - [x] Solution Requirements (Function & Non-Functional) <br>
         - [x] Technology Architecture <br>
+ - Assignments
+    -  [x] Assignment 1 <br>
+    -  [x] Assignment 2  <br>    
+    -  [x] Assignment 3  <br>
+    -  [x] Assignment 4  <br>  
 - Project Development Phase
     -  [x] Sprint 1 <br>
     -  [x] Sprint 2 <br>    

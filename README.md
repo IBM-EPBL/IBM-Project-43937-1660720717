@@ -10,6 +10,8 @@ Trip Based Modeling of Fuel Consumption in Modern Fleet Vehicles Using Machine L
 <br>
 #video
         [demonstrate model output youtube link](https://youtu.be/Nhj3JYSA6Hg/)
+        <br>
+        
 ## Tasks Completed 
  - Assignments
     -  [x] Assignment 1 <br>
